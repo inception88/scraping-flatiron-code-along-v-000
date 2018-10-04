@@ -29,7 +29,7 @@ class Scraper
       Course.all.each do |course|
       if course.title
         puts "Title: #{course.title}"
-        puts "  Schedule: #{course.schedule}"
+        puts "Schedule: #{course.schedule}"
         puts "  Description: #{course.description}"
       end
       end
